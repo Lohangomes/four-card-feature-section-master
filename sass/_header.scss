@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 25.0rem;
+  color: $Grayish-Blue;
+  text-align: center;
+
+  .header {
+    max-width:60.0rem;
+    padding: 2rem;
+
+    h1 {
+      font-size: 3.5rem;
+      font-weight: 200;
+
+      strong {
+        color: $Very-Dark-Blue;
+      }
+    }
+
+    p {
+      margin-top: 2rem;
+      line-height: 1.7;
+    }
+  }
+}
